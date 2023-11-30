@@ -9,8 +9,7 @@ body {
 div.container {
   border: 1px solid rgba(255, 255, 255, 0.2);
   max-width: 1100px;
-  background: linear-gradient(90deg,#0d0c0c, #632c3e, #0d0c0c);
-  backdrop-filter: blur(10px);
+  background: linear-gradient(90deg, #0d0c0c, #632c3e, #0d0c0c);
   border-radius: 25px;
   padding: 50px 100px;
   text-align: center;
