@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0 auto;
 }
+
 body {
   background: linear-gradient(45deg, #0d0c0c, #150c0f, #0d0c0c);
   color: #dda3b6;
@@ -16,3 +17,24 @@ div.container {
   margin-top: 6%;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
+div.content {
+  display: flex;
+}
+div.product {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  margin: 30px 20px;
+  background-color: rgba(236, 149, 200, 0.2);
+}
+div.product:nth-child(1) {
+  margin-left: 0;
+}
+div.product div.img {
+  width: 270px;
+  padding: 10px;
+}
+div.product div.img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
